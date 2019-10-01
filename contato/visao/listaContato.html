@@ -1,0 +1,64 @@
+<div class="row">
+    <div class="col-12 col-md-10">
+        <h4 class="text-dark">Gerenciamento dos gados existentes</h4>
+    </div>
+
+    <div class="col-12 col-md-2">
+        <button class="btn btn-outline-primary btn-block btn-new"><i class="mdi mdi-plus"></i> Novo</button>
+    </div>
+</div>
+<div class="row mt-3">
+    <table class="table">
+        <thead>
+            <tr>
+                <td class="text-center" width="5%">Cdg</td>
+                <td class="text-center" width="5%">Nome</td>
+                <td class="text-center" width="5%">Endereço</td>
+                <td class="text-center" width="5%">Telefone</td>
+                <td class="text-center" width="5%">Celular</td>
+                <td class="text-center" width="5%">Email</td>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td class="text-center">01</td>
+                <td class="text-center">Ana</td>
+                <td class="text-center">Avenida</td>
+                <td class="text-center">8776565454</td>
+                <td class="text-center">4568909008</td>
+                <td class="text-center">jsdhshg@hjdjkf.com</td>
+                <td class="text-center">
+                    <button class="btn btn-outline-primary btn-sm" data-toggle="modal" data-target="#modalContato"><i class="mdi mdi-eye mdi-18px"></i></button>
+                    <button class="btn btn-outline-warning btn-sm" data-toggle="modal" data-target="#modalContato"><i class="mdi mdi-pencil mdi-18px"></i></button>
+                    <button class="btn btn-outline-danger btn-sm" data-toggle="modal" data-target="#modalContato"><i class="mdi mdi-delete mdi-18px"></i></button>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<div class="modal fade" id="modalContato" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <!--<div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary">Salvar mudanças</button>
+            </div>-->
+        </div>
+    </div>
+</div>
+
+
+
+<script src="contato/controle/listaContato.js"></script>
